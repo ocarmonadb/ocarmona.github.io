@@ -226,7 +226,7 @@ select option,
   }
 }
 .nav__item a.active {
-  background:  #0055FF;
+  background:  #0D86FF;
   color: #FCFCFC;
 }
 .nav__item a.active:hover {
@@ -387,3 +387,23 @@ select option,
 }
 
 /*# sourceMappingURL=style-dark.css.map */
+.icon {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.progra{
+  color: rgb(0, 255, 255);
+}
+
+.design{
+  color:rgb(80, 252, 0);
+}
+
+.vfx{
+  color: rgb(220, 20, 27);
+}
+
+.icon_color{
+  color: #0D86FF;
+}
