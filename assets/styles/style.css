@@ -942,14 +942,14 @@ button:focus {
   position: relative;
 }
 .overlay::before, .overlay--45::before, .overlay--80::before {
-  content: '';
+  /*content: '';*/
   background-color: rgba(46, 47, 54, 0.8);
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  z-index: 2;
+  /*z-index: 2;*/
 }
 .overlay--45::before {
   background-color: rgba(46, 47, 54, 0.45);
@@ -1659,11 +1659,11 @@ button:focus {
 }
 .news-item__image-wrap::after {
   content: '';
-  background-image: url(../img/icon-news.svg);
+  /*background-image: url(../img/icon-news.svg);*/
   height: 2.5rem;
   margin: auto;
   opacity: 0;
-  pointer-events: none;
+  pointer-events: auto;
   position: absolute;
   top: 0;
   right: 0;
@@ -2410,7 +2410,7 @@ button:focus {
   z-index: 1104;
 }
 
-/* Jarallax */
+/* Parallax */
 .js-parallax {
   position: relative;
   background-size: cover;
