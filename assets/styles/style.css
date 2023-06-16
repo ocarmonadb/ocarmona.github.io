@@ -1238,7 +1238,7 @@ button:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: calc(100% - 24px);
+  min-height: calc(100% - 24px);
   margin-bottom: 1.5rem;
   padding: 1.875rem 1.875rem 1.5rem;
   position: relative;
