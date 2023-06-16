@@ -2471,3 +2471,8 @@ button:focus {
 .icon_color{
   color: #0055FF;
 }
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
