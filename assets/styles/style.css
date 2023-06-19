@@ -1658,7 +1658,7 @@ button:focus {
   transition: opacity .5s ease-in-out;
 }
 .news-item__image-wrap::after {
-  content: '';
+  /*content: '';*/
   /*background-image: url(../img/icon-news.svg);*/
   height: 2.5rem;
   margin: auto;
